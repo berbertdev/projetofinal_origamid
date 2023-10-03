@@ -1,5 +1,4 @@
 export default class ScrollSuave {
-
   constructor(links, options) {
     this.linksInternos = document.querySelectorAll(links);
     if (options === undefined) {
