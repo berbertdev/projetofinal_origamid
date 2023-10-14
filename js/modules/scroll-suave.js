@@ -17,7 +17,7 @@ export default class ScrollSuave {
     section.scrollIntoView(this.options);
   }
 
-  addLinkEvents() {
+  addLinkEvent() {
     this.linksInternos.forEach((link) => {
       link.addEventListener('click', this.scrollToSection);
     });
@@ -25,7 +25,7 @@ export default class ScrollSuave {
 
   init() {
     if (this.linksInternos.length) {
-      this.addLinkEvents();
+      this.addLinkEvent();
     }
     return this;
   }
