@@ -12,7 +12,7 @@ export default class Accordion {
   // adiciona os eventos ao accordion
   addAccordionEvent() {
     this.accordionList.forEach((item) => {
-      item.addEventListener('click', () => item.toggleAccordion);
+      item.addEventListener('click', () => this.toggleAccordion(item));
     });
   }
 
