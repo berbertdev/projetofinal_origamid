@@ -1,7 +1,7 @@
 export default class Funcionamento {
   constructor(funcionamento, activeClass) {
     this.funcionamento = document.querySelector(funcionamento);
-    this.activeClass = activeClass
+    this.activeClass = activeClass;
   }
 
   dadosFuncionamento() {
@@ -34,5 +34,4 @@ export default class Funcionamento {
       this.ativaAberto();
     }
   }
-
 }
